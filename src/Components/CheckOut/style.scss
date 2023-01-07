@@ -1,0 +1,44 @@
+.app__SA{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app__form{
+    border: 1.5px bold black;
+    display: block;
+    justify-content: center;
+}
+
+.button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+    color: var(--white-color);
+    outline: none;
+    margin:3px;
+    
+    font-family: var(--font-base);
+    cursor: pointer;
+
+}
+
+.ip{
+    width: 100%;
+    padding: 0.95rem;
+    border:rgb(75, 70, 71) dotted 1.5px;
+    border-radius: 7px;
+    background-color: var(--primary-color);
+    font-family: var(--font-base);
+    color: var(--secondary-color);
+    outline: none;
+    margin-bottom: 15px;
+}
+
+h3{
+    
+    margin-bottom: 25px;
+}
